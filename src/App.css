@@ -16,5 +16,196 @@
   background: var(--background-color);
   padding: 20px;
   text-decoration: none;
-  width: 100vw;
+}
+/*------------------------------------*\
+  #HEADER-TOP
+\*------------------------------------*/
+.header {
+  width: 100%;
+  min-height: 407px;
+  background: var(--components-color);
+  padding: 48px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header__hexagon--border {
+  display: flex;
+  position: relative;
+  width: 216px;
+  height: 236px;
+  background-color: var(--lines--color);
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  margin: 0 0 0 28px;
+}
+.header__hexagon__source--container {
+  width: 200px;
+  height: 216px;
+  overflow: hidden;
+  margin: 10px 8px;
+  display: flex;
+  position: relative;
+  background-color: var(--lines--color);
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.header__hexagon__source {
+  width: 256px;
+  object-fit: cover;
+  position: absolute;
+  top: -63px;
+}
+.header__text-container {
+  max-width: 643px;
+  width: 50%;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.header__title {
+  font-size: 33px;
+  font-weight: 500;
+}
+.header__quote {
+  padding: 28px 14px;
+  font-size: 24px;
+}
+/*------------------------------------*\
+  #HEADER-BOTTOM
+\*------------------------------------*/
+.header__nav {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.header__nav__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--subtitles-size);
+  color: var(--text-color);
+  margin: 10px 3% 0 1%;
+  transition: all 0.3s ease;
+}
+.header__nav__item:hover {
+  text-decoration: none;
+}
+.header__nav__item:last-child:hover {
+  opacity: 0.7;
+}
+.nav__item__circle {
+  width: 37px;
+  min-width: 37px;
+  height: 37px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--highlight-color);
+  font-size: 20px;
+  margin-right: 10px;
+}
+.nav__item__circle--curriculum {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 37px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+/*------------------------------------*\
+  #SECTION
+\*------------------------------------*/
+.section {
+  background: var(--components-color);
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  margin-top: 20px;
+  width: 50%;
+  height: 453px;
+  color: var(--text-color);
+}
+.section__scrollbar-handle {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.section__scrollbar-handle::-webkit-scrollbar {
+  width: 5px;
+}
+.section__scrollbar-handle::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: rgba(53, 49, 49, 0.486);
+}
+.section__scrollbar-handle::-webkit-scrollbar-thumb {
+  background: var(--lines--color);
+  border-radius: 10px;
+}
+.section__title {
+  font-weight: 500;
+  font-size: var(--titles-size);
+  margin-bottom: 11px;
+}
+.section__item {
+  display: flex;
+  align-items: flex-start;
+  margin: 9px 0;
+}
+.section__item__icon {
+  color: var(--highlight-color);
+  width: 33px;
+  min-width: 33px;
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+}
+.section__item__content{
+  padding-right: 13px;
+}
+.item__content__title{
+  font-weight: 600;
+  font-size: var(--subtitles-size);
+}
+.item__content__subtitle{
+  font-weight: normal;
+  font-size: var(--text-size);
+  position: relative;
+  padding-left: 10px;
+}
+.item__content__subtitle::after{
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
 }
