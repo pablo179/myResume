@@ -4,6 +4,7 @@ import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faGithubAlt, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 import imageProfile from "../assets/images/imageProfile.jpg";
+import pdfFile from '../assets/pdf/cvPablo.pdf'
 
 function Header() {
   return (
@@ -62,7 +63,7 @@ function Header() {
         </a>
         <a
           className="header__nav__item"
-          href="../assets/pdf/cvPablo.pdf"
+          href={pdfFile}
           download
         >
           <div className="nav__item__circle--curriculum">
