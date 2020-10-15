@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header, Experience, Portfolio } from "./components"
+import { Header, Experience, Portfolio, Education } from "./components"
 
 import "./App.css";
 
@@ -11,6 +11,10 @@ function App() {
       <div className="flex-row" >
         <Portfolio />
         <Experience />
+      </div>
+      <div className="flex-row">
+        <div className="section"></div>
+        <Education />
       </div>
     </div>
   );
