@@ -178,6 +178,10 @@
   font-weight: 500;
   font-size: var(--titles-size);
   margin-bottom: 11px;
+  background: var(--components-color);
+  position: sticky ;
+  top: 0;
+  z-index: 1;
 }
 .section__item {
   display: flex;
@@ -204,12 +208,12 @@
   font-size: var(--text-size);
   position: relative;
   padding-left: 10px;
-  padding-top: 2px;
+  padding-top: 4px;
 }
 .item__content__subtitle::after{
   content: '';
   position: absolute;
-  top: 7px;
+  top: 11px;
   left: 0px;
   width: 6px;
   height: 6px;
