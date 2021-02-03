@@ -102,7 +102,9 @@ function Portfolio() {
             <div className="section__scrollbar-handle">
                 <div className="section__title">Portafolio</div>
                 <div className="section__item--container--flex-row" >
-                    {portfolioList.map((item, index) => sectionItem(item, index))}
+                    {
+                    portfolioList.map((item, index) => sectionItem(item, index))
+                    }
                 </div>
             </div>
         </div>
