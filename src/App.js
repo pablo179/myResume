@@ -1,6 +1,12 @@
 import React from "react";
 
-import { Header, Experience, Portfolio, Education } from "./components"
+import {
+  Header,
+  Experience,
+  Portfolio,
+  Education,
+  Technologies,
+} from "./components"
 
 import "./App.css";
 
@@ -13,7 +19,7 @@ function App() {
         <Experience />
       </div>
       <div className="flex-row">
-        <div className="section"></div>
+        <Technologies />
         <Education />
       </div>
     </div>
