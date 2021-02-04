@@ -14,10 +14,16 @@
   --text-size: 15px;
 
 }
+.appContainer {
+  display: flex;
+  justify-content: center;
+  background: var(--background-color);
+}
 .app {
   background: var(--background-color);
   padding: 20px;
   text-decoration: none;
+  max-width: 1400px;
 }
 /*------------------------------------*\
   #HEADER-TOP
