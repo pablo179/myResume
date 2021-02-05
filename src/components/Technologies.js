@@ -3,12 +3,14 @@ import React from 'react';
 import { technologiesData } from '../data'
 
 function Technologies() {
-    const sectionItem = (item, index ) => (
-        <div key={index} className="section__item--tech">
-            <div className="section__item--tech--background">
-                <img className="section__item--tech__image" src={item.image} alt={item.title}/>
+    const sectionItem = (item, index) => (
+        <span className="section__item--tech--wrapper">
+            <div key={index} className="section__item--tech">
+                <div className="section__item--tech--background">
+                    <img className="section__item--tech__image" src={item.image} alt={item.title} />
+                </div>
             </div>
-        </div>
+        </span>
     )
     return (
         <div className="section">
@@ -16,7 +18,7 @@ function Technologies() {
                 <div className="section__title">Herramientas y Tecnologías</div>
                 <div className="section__item--container--flex-row">
                     {
-                        technologiesData.map(( item, index ) => sectionItem(item, index))
+                        technologiesData.map((item, index) => sectionItem(item, index))
                     }
                 </div>
             </div>
