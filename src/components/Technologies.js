@@ -4,8 +4,8 @@ import { technologiesData } from '../data'
 
 function Technologies() {
     const sectionItem = (item, index) => (
-        <span className="section__item--tech--wrapper">
-            <div key={index} className="section__item--tech">
+        <span className="section__item--tech--wrapper" key={index}>
+            <div className="section__item--tech">
                 <div className="section__item--tech--background">
                     <img className="section__item--tech__image" src={item.image} alt={item.title} />
                 </div>

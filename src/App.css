@@ -351,3 +351,113 @@
   object-fit: contain;
   width: 55%;
 }
+/*------------------------------------*\
+  #Portfolio Modal
+\*------------------------------------*/
+.modal--background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal {
+  width: 80%;
+  max-width: 836px;
+  min-height: 540px;
+  background: var(--components-color);
+  border-radius: 46px;
+  position: relative;
+  padding: 45px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal_close-icon {
+  position: absolute;
+  top: 45px;
+  right: 42px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.modal__title {
+  font-size: 32px;
+  color: var(--text-color);
+  margin-bottom: 22px;
+  font-weight: 600;
+}
+.modal__content {
+  display: flex;
+}
+.content__image {
+  width: 50%;
+  max-width: 367px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 6px 6px 16px 7px rgb(0 0 0 / 50%);
+  margin-right: 29px;
+}
+.content__description {
+  font-size: var(--text-size);
+  color:var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.modal__buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.buttons__button{
+  text-decoration: none;
+  width: 150px;
+  height: 31px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: var(--subtitles-size);
+  transition: all 0.3s ease;
+}
+.demo {
+  color: var(--text-color);
+  background-color: var(--highlight-color);
+  margin-right: 10px;
+}
+.demo:hover {
+  color: #FF8F00;
+  background-color: var(--text-color);
+}
+.repo {
+  color: #FF8F00;
+  background-color: var(--text-color);
+}
+.repo:hover{
+  color: var(--text-color);
+  background-color: var(--highlight-color);
+}
+
+.modal__technologies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal__technologies .section__item--tech--wrapper , 
+.modal__technologies .section__item--tech {
+  width: 84px;
+  height: 93px;
+}
+
+.modal__technologies .section__item--tech--background {
+  width: 77px;
+  height: 86px;
+}
