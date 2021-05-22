@@ -13,7 +13,7 @@ export const technologiesData = [
     },
     {
         title: 'React',
-        image: 'https://res.cloudinary.com/dtqaqkhwv/image/upload/v1612413354/react.png',
+        image: 'https://res.cloudinary.com/dtqaqkhwv/image/upload/v1612800957/react.svg',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         percentage: '85%',
     },

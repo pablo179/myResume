@@ -1,11 +1,11 @@
 export const portfolioData = [
     {
-        title: "pagina react",
+        title: "pagina en html",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['HTML-CSS']
     },
     {
         title: "pagina react",
@@ -13,55 +13,55 @@ export const portfolioData = [
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['React','JavaScript']
     },
     {
-        title: "pagina react",
+        title: "pagina en node",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['NodeJS', 'mongoDB']
     },
     {
-        title: "pagina react",
+        title: "pagina webpackeada",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['Webpack','HTML-css', 'JavaScript']
     },
     {
-        title: "pagina react",
+        title: "pagina en atom",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['Atom','React','JavaScript']
     },
     {
-        title: "pagina react",
+        title: "pagina en Bootstrap",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['Bootstrap','HTML-CSS','JavaScript']
     },
     {
-        title: "pagina react",
+        title: "pagina con firebase",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['Firebase','HTML-CSS','JavaScript']
     },
     {
-        title: "pagina react",
+        title: "pagina con redux",
         image: "https://www.androidheadlines.com/wp-content/uploads/2015/05/google-developers-website-ah.jpg",
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquam placeat asperiores ullam minus aliquid earum. Officia sit, voluptate sapiente, tempore laboriosam nesciunt beatae cumque optio, distinctio temporibus eligendi cum?',
         demo: "https://energysolutionsmengar.com/",
         repo: "https://github.com/pablo179/api-fixterland",
-        technologies:['HTML-CSS','JavaScript']
+        technologies:['Redux','JavaScript', 'React']
     },
     {
         title: "pagina react",
